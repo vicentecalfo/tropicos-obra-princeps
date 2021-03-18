@@ -48,8 +48,6 @@ function buildOutput(output, references, notFound) {
 	const notFoundFile = notFound.map((specie) => specie.join(',')).join('\n');
 	const notFoundFilename = `${output.substring(0, output.lastIndexOf('.')) || output}-notFound.csv`;
 	fs.outputFileSync('./' + notFoundFilename, notFoundFile);
-	//console.log(referenceFile);
-	//console.log(notFoundFile);
 }
 
 async function getReference(scientificNameWithAuthors, results) {
@@ -117,11 +115,3 @@ function formatName(name) {
 }
 
 init();
-
-// search('Mimosa scabrella').then(result => {
-// 	console.log(result);
-// });
-
-// getSpecies().then(result =>{
-// 	console.log(result);
-// })

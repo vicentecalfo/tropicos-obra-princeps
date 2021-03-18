@@ -1,5 +1,5 @@
 # Tropicos Obra Princeps
-Script para buscar a obra princeps de espécies usando a API do [Tropicos.org](https://services.tropicos.org/help).
+Script para buscar a obra princeps (referências) de espécies usando a API do [Tropicos.org](https://services.tropicos.org/help).
 
 # Instalação
 ``` 

@@ -19,6 +19,6 @@ Exemplo:
 Olhar o arquivo `input.csv`. 
 
 # Informações gerais
-* As espécies não encontradas serão informadas num arquivo com o mesmo node informado no output, mas com um sufixo `-notFound`;
+* As espécies não encontradas serão informadas num arquivo com o mesmo nome informado no output, mas com um sufixo `-notFound`;
 * Os nomes científicos devem ter o autor;
 * Para usar a API do Tropicos.org você precisará de uma chave de acesso que pode ser solicitada [aqui](https://services.tropicos.org/help?requestkey).

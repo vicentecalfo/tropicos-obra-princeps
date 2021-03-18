@@ -1,0 +1,27 @@
+{
+  "name": "tropicos-obra-princeps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentecalfo/tropicos-obra-princeps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicentecalfo/tropicos-obra-princeps/issues"
+  },
+  "homepage": "https://github.com/vicentecalfo/tropicos-obra-princeps#readme",
+  "dependencies": {
+    "@vicentecalfo/tropicos-api-wrapper": "^1.2.0",
+    "command-line-args": "^5.1.1",
+    "csvtojson": "^2.0.10",
+    "flexsearch": "^0.6.32",
+    "fs-extra": "^9.1.0"
+  }
+}
